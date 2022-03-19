@@ -1,0 +1,9 @@
+<h3>{{title}}
+</h3>
+<ul class="list-group">
+  <li
+    class="list-group-item"
+    *ngFor="let user of users; let i = index">
+    {{ user }} | <a href="#" (click)="onStatusChange(i)">{{buttomMessage}}</a>
+  </li>
+</ul>
