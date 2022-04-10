@@ -1,4 +1,4 @@
 <p>User with ID {{ user.id }}.</p>
 <p>User name is {{ user.name }}</p>
 <hr>
-<a [routerLink]="[ '/users', 2, 'Jorge' ]">Reload Jorge (2)</a>
+<a [routerLink]="[ '/users', user.id, user.name ]">Reload {{ user.name +  ' (' + user.id + ')' }} </a>

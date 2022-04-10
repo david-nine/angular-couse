@@ -19,5 +19,5 @@ export class UsersComponent {
       id: 3,
       name: 'Chris'
     }
-  ];
+  ];  
 }
